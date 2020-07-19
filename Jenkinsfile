@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image "node:lts-alpine3.9"
+      args "--network skynet"
     }
   }
   stages {
