@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image "node:edge-alpine"
+      image "node:8-alpine"
     }
   }
   stages {
